@@ -1,0 +1,434 @@
+TID: [-1] [] [2019-01-15 08:13:29,346]  INFO {org.wso2.andes.kernel.AndesRecoveryTask} -  Running DB sync task. {org.wso2.andes.kernel.AndesRecoveryTask}
+TID: [-1] [] [2019-01-15 08:48:52,597]  INFO {org.wso2.andes.kernel.AndesRecoveryTask} -  Running DB sync task. {org.wso2.andes.kernel.AndesRecoveryTask}
+TID: [-1] [] [2019-01-15 08:52:01,855]  WARN {org.wso2.carbon.databridge.agent.endpoint.DataEndpointGroup} -  No receiver is reachable at reconnection, will try to reconnect every 30 sec {org.wso2.carbon.databridge.agent.endpoint.DataEndpointGroup}
+TID: [-1234] [] [2019-01-15 08:52:04,169]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown hook triggered.... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [-1] [] [2019-01-15 08:52:04,171]  INFO {org.wso2.andes.kernel.HazelcastLifecycleListener} -  Hazelcast instance lifecycle changed state to SHUTTING_DOWN {org.wso2.andes.kernel.HazelcastLifecycleListener}
+TID: [-1234] [] [2019-01-15 08:52:04,180]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Gracefully shutting down WSO2 API Manager... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [-1234] [] [2019-01-15 08:52:04,185]  INFO {org.wso2.carbon.core.ServerManagement} -  Starting to switch to maintenance mode... {org.wso2.carbon.core.ServerManagement}
+TID: [-1234] [] [2019-01-15 08:52:04,185]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} -  Stopping Pass-through HTTP Listener.. {org.apache.synapse.transport.passthru.PassThroughHttpListener}
+TID: [-1234] [] [2019-01-15 08:52:04,186]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} -  Shutting down IO Reactor bind for port 8283 {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager}
+TID: [-1] [] [2019-01-15 08:52:04,188]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} -  HTTP-Listener I/O dispatcher Listener shutdown. {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager}
+TID: [-1234] [] [2019-01-15 08:52:04,188]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener} -  Stopping Pass-through HTTPS Listener.. {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener}
+TID: [-1234] [] [2019-01-15 08:52:04,189]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} -  Shutting down IO Reactor bind for port 8246 {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager}
+TID: [-1] [] [2019-01-15 08:52:04,190]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} -  HTTPS-Listener I/O dispatcher Listener shutdown. {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager}
+TID: [-1234] [] [2019-01-15 08:52:04,190]  INFO {org.wso2.carbon.core.ServerManagement} -  Stopped all transport listeners {org.wso2.carbon.core.ServerManagement}
+TID: [-1234] [] [2019-01-15 08:52:04,190]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for request service completion... {org.wso2.carbon.core.ServerManagement}
+TID: [-1] [] [2019-01-15 08:52:04,210]  INFO {org.wso2.andes.kernel.HazelcastLifecycleListener} -  Hazelcast instance lifecycle changed state to SHUTDOWN {org.wso2.andes.kernel.HazelcastLifecycleListener}
+TID: [-1234] [] [2019-01-15 08:52:04,211]  INFO {org.wso2.carbon.core.ServerManagement} -  All requests have been served. {org.wso2.carbon.core.ServerManagement}
+TID: [-1234] [] [2019-01-15 08:52:04,211]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for deployment completion... {org.wso2.carbon.core.ServerManagement}
+TID: [-1234] [] [2019-01-15 08:52:04,330]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/am/sample/pizzashack/v1] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [-1234] [] [2019-01-15 08:52:04,415]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/publisher/v0.10] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [-1234] [] [2019-01-15 08:52:04,481]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/client-registration/v0.10] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [-1234] [] [2019-01-15 08:52:04,587]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/shindig] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [-1234] [] [2019-01-15 08:52:04,613]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/am/sample/calculator/v1] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [-1234] [] [2019-01-15 08:52:04,669]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/throttle/data/v1] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [-1234] [] [2019-01-15 08:52:04,729]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/admin/v0.10] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [-1234] [] [2019-01-15 08:52:04,763]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/authenticationendpoint] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [-1234] [] [2019-01-15 08:52:04,806]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/store/v0.10] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [-1234] [] [2019-01-15 08:52:04,834]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/oauth2] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [-1234] [] [2019-01-15 08:52:04,841]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/portal] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [-1234] [] [2019-01-15 08:52:04,847]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/publisher] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [-1234] [] [2019-01-15 08:52:04,854]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/admin] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [-1234] [] [2019-01-15 08:52:04,863]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/store] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [-1234] [] [2019-01-15 08:52:04,863]  INFO {org.wso2.carbon.core.ServerManagement} -  All deployment tasks have been completed. {org.wso2.carbon.core.ServerManagement}
+TID: [-1234] [] [2019-01-15 08:52:04,863]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for server task completion... {org.wso2.carbon.core.ServerManagement}
+TID: [-1234] [] [2019-01-15 08:52:04,873] ERROR {org.wso2.carbon.registry.indexing.IndexingManager} -  Could not write last activity time when stopping indexing {org.wso2.carbon.registry.indexing.IndexingManager}
+org.wso2.carbon.registry.core.exceptions.RegistryException: An exception occurred while executing handler chain. Hazelcast instance is not active!
+	at org.wso2.carbon.registry.core.jdbc.handlers.HandlerManager.put(HandlerManager.java:2525)
+	at org.wso2.carbon.registry.core.jdbc.handlers.HandlerLifecycleManager.put(HandlerLifecycleManager.java:945)
+	at org.wso2.carbon.registry.core.jdbc.EmbeddedRegistry.put(EmbeddedRegistry.java:697)
+	at org.wso2.carbon.registry.core.caching.CacheBackedRegistry.put(CacheBackedRegistry.java:591)
+	at org.wso2.carbon.registry.core.session.UserRegistry.putInternal(UserRegistry.java:828)
+	at org.wso2.carbon.registry.core.session.UserRegistry.access$1000(UserRegistry.java:61)
+	at org.wso2.carbon.registry.core.session.UserRegistry$11.run(UserRegistry.java:804)
+	at org.wso2.carbon.registry.core.session.UserRegistry$11.run(UserRegistry.java:801)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.wso2.carbon.registry.core.session.UserRegistry.put(UserRegistry.java:801)
+	at org.wso2.carbon.registry.indexing.IndexingManager.writeLastAccessTime(IndexingManager.java:229)
+	at org.wso2.carbon.registry.indexing.IndexingManager.stopIndexing(IndexingManager.java:110)
+	at org.wso2.carbon.registry.indexing.internal.IndexingServiceComponent$1.startingShutdown(IndexingServiceComponent.java:84)
+	at org.wso2.carbon.core.ServerManagement.waitForServerTaskCompletion(ServerManagement.java:113)
+	at org.wso2.carbon.core.ServerManagement.startMaintenanceForShutDown(ServerManagement.java:97)
+	at org.wso2.carbon.core.init.CarbonServerManager.shutdownGracefully(CarbonServerManager.java:879)
+	at org.wso2.carbon.core.init.CarbonServerManager$4.run(CarbonServerManager.java:902)
+Caused by: com.hazelcast.core.HazelcastInstanceNotActiveException: Hazelcast instance is not active!
+	at com.hazelcast.instance.HazelcastInstanceProxy.getOriginal(HazelcastInstanceProxy.java:271)
+	at com.hazelcast.instance.HazelcastInstanceProxy.getMap(HazelcastInstanceProxy.java:75)
+	at org.wso2.carbon.core.clustering.hazelcast.HazelcastDistributedMapProvider$DistMap.<init>(HazelcastDistributedMapProvider.java:68)
+	at org.wso2.carbon.core.clustering.hazelcast.HazelcastDistributedMapProvider.getMap(HazelcastDistributedMapProvider.java:47)
+	at org.wso2.carbon.caching.impl.CacheImpl.<init>(CacheImpl.java:120)
+	at org.wso2.carbon.caching.impl.CarbonCacheManager.getCache(CarbonCacheManager.java:121)
+	at org.wso2.carbon.registry.core.utils.RegistryUtils.getUUIDCache(RegistryUtils.java:319)
+	at org.wso2.carbon.registry.core.caching.CachingHandler.getUUIDCache(CachingHandler.java:87)
+	at org.wso2.carbon.registry.core.caching.CachingHandler.removeFromCache(CachingHandler.java:271)
+	at org.wso2.carbon.registry.core.caching.CachingHandler.clearCache(CachingHandler.java:192)
+	at org.wso2.carbon.registry.core.caching.CachingHandler.clearCache(CachingHandler.java:98)
+	at org.wso2.carbon.registry.core.caching.CachingHandler.put(CachingHandler.java:341)
+	at org.wso2.carbon.registry.core.jdbc.handlers.HandlerManager.put(HandlerManager.java:2503)
+	... 16 more
+TID: [-1234] [] [2019-01-15 08:52:04,877]  INFO {org.wso2.andes.kernel.FlowControlManager} -  Prepare channels for shutdown. {org.wso2.andes.kernel.FlowControlManager}
+TID: [-1234] [] [2019-01-15 08:52:04,878]  INFO {org.wso2.andes.kernel.MessagingEngine} -  Stopping SlotDelivery Worker. {org.wso2.andes.kernel.MessagingEngine}
+TID: [-1234] [] [2019-01-15 08:52:04,878]  INFO {org.wso2.andes.kernel.slot.SlotMessageCounter} -  Stopping slot timeout task executor {org.wso2.andes.kernel.slot.SlotMessageCounter}
+TID: [-1234] [] [2019-01-15 08:52:04,960]  INFO {org.wso2.andes.server.registry.ApplicationRegistry} -  Shutting down ApplicationRegistry(org.wso2.andes.server.registry.ConfigurationFileApplicationRegistry@3a08f793) {org.wso2.andes.server.registry.ApplicationRegistry}
+TID: [-1234] [] [2019-01-15 08:52:04,965]  INFO {org.wso2.andes.server.registry.ApplicationRegistry} -  Shutting down ApplicationRegistry:org.wso2.andes.server.registry.ConfigurationFileApplicationRegistry@3a08f793 {org.wso2.andes.server.registry.ApplicationRegistry}
+TID: [-1234] [] [2019-01-15 08:52:04,975]  INFO {org.wso2.andes.server.security.auth.manager.PrincipalDatabaseAuthenticationManager} -  Unregistering UserManagementMBean {org.wso2.andes.server.security.auth.manager.PrincipalDatabaseAuthenticationManager}
+TID: [-1234] [] [2019-01-15 08:52:04,981]  INFO {org.wso2.andes.server.cluster.ClusterManager} -  Clearing the Persisted State of Node with ID NODEMarcoss-MacBook-Pro.local/10.208.74.54 {org.wso2.andes.server.cluster.ClusterManager}
+TID: [-1234] [] [2019-01-15 08:52:04,990]  INFO {org.wso2.andes.kernel.AndesKernelBoot} -  Stop syncing exchanges, queues, bindings and subscriptions... {org.wso2.andes.kernel.AndesKernelBoot}
+TID: [-1234] [] [2019-01-15 08:52:04,995]  INFO {org.wso2.carbon.core.ServerManagement} -  All server tasks have been completed. {org.wso2.carbon.core.ServerManagement}
+TID: [-1234] [] [2019-01-15 08:52:04,995]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down WSO2 API Manager... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [-1234] [] [2019-01-15 08:52:04,996]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down OSGi framework... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [-1234] [] [2019-01-15 08:52:05,076]  INFO {org.apache.synapse.task.SynapseTaskManager} -  Shutting down the task manager {org.apache.synapse.task.SynapseTaskManager}
+TID: [-1234] [] [2019-01-15 08:52:05,085]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiverServiceComponent} -  Binary Data Receiver server shutting down... {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiverServiceComponent}
+TID: [-1234] [] [2019-01-15 08:52:05,086]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiver} -  Stopping Binary Server.. {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiver}
+TID: [-1234] [] [2019-01-15 08:52:05,087]  INFO {org.wso2.carbon.databridge.receiver.thrift.internal.ThriftDataReceiverDS} -  Thrift server shutting down... {org.wso2.carbon.databridge.receiver.thrift.internal.ThriftDataReceiverDS}
+TID: [-1234] [] [2019-01-15 08:52:05,101]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event Receiver undeployed successfully: throttleWSO2EventReceiver.xml {org.wso2.carbon.event.receiver.core.EventReceiverDeployer}
+TID: [-1234] [] [2019-01-15 08:52:05,104]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event receiver deployment held back and in inactive state: throttleWSO2EventReceiver.xml, waiting for Input Event Adapter dependency: wso2event {org.wso2.carbon.event.receiver.core.EventReceiverDeployer}
+TID: [-1234] [] [2019-01-15 08:52:05,105]  INFO {org.wso2.carbon.event.receiver.core.internal.CarbonEventReceiverService} -  Event receiver : throttleWSO2EventReceiver in inactive state because dependency could not be found: wso2event {org.wso2.carbon.event.receiver.core.internal.CarbonEventReceiverService}
+TID: [-1234] [] [2019-01-15 08:52:05,114]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher undeployed successfully : jmsEventPublisher.xml {org.wso2.carbon.event.publisher.core.EventPublisherDeployer}
+TID: [-1234] [] [2019-01-15 08:52:05,117]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher deployment held back and in inactive state : jmsEventPublisher.xml, waiting for Output Event Adapter dependency : jms {org.wso2.carbon.event.publisher.core.EventPublisherDeployer}
+TID: [-1234] [] [2019-01-15 08:52:05,117]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} -  Event publisher : jmsEventPublisher  is in inactive state because dependency could not be found : jms {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService}
+TID: [-1234] [] [2019-01-15 08:52:05,168]  INFO {org.wso2.carbon.event.processor.core.internal.CarbonEventProcessorService} -  Successfully shutdown ExecutionPlans {org.wso2.carbon.event.processor.core.internal.CarbonEventProcessorService}
+TID: [-1234] [] [2019-01-15 08:52:05,189]  INFO {org.wso2.andes.kernel.slot.SlotManagerClusterMode} -  Using RDBMS based slot management mode {org.wso2.andes.kernel.slot.SlotManagerClusterMode}
+TID: [-1234] [] [2019-01-15 08:52:05,195]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Stopping CarbonServerManager... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [-1] [] [2019-01-15 08:52:05,199]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSender} -  HTTP Sender shutdown {org.apache.synapse.transport.passthru.PassThroughHttpSender}
+TID: [-1234] [] [2019-01-15 08:52:05,201]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} -  Destroying PassThroughHttpListener {org.apache.synapse.transport.passthru.PassThroughHttpListener}
+TID: [-1] [] [2019-01-15 08:52:05,200]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender} -  HTTPS Sender shutdown {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender}
+TID: [-1234] [] [2019-01-15 08:52:05,201]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener} -  Destroying PassThroughHttpListener {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener}
+TID: [-1234] [] [2019-01-15 08:52:07,578]  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} -  Stopping the carbon web-app registered under : / {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent}
+TID: [-1234] [] [2019-01-15 08:52:07,582]  INFO {org.wso2.carbon.metrics.impl.reporter.AbstractReporter} -  Stopped JDBC reporter for Metrics {org.wso2.carbon.metrics.impl.reporter.AbstractReporter}
+TID: [-1234] [] [2019-01-15 08:52:07,588]  INFO {org.wso2.carbon.metrics.impl.reporter.AbstractReporter} -  Stopped JMX reporter for Metrics {org.wso2.carbon.metrics.impl.reporter.AbstractReporter}
+TID: [-1234] [] [2019-01-15 08:52:07,640] ERROR {org.wso2.carbon.registry.indexing.IndexingManager} -  Could not write last activity time when stopping indexing {org.wso2.carbon.registry.indexing.IndexingManager}
+org.wso2.carbon.registry.core.exceptions.RegistryException: An exception occurred while executing handler chain. Hazelcast instance is not active!
+	at org.wso2.carbon.registry.core.jdbc.handlers.HandlerManager.put(HandlerManager.java:2525)
+	at org.wso2.carbon.registry.core.jdbc.handlers.HandlerLifecycleManager.put(HandlerLifecycleManager.java:945)
+	at org.wso2.carbon.registry.core.jdbc.EmbeddedRegistry.put(EmbeddedRegistry.java:697)
+	at org.wso2.carbon.registry.core.caching.CacheBackedRegistry.put(CacheBackedRegistry.java:591)
+	at org.wso2.carbon.registry.core.session.UserRegistry.putInternal(UserRegistry.java:828)
+	at org.wso2.carbon.registry.core.session.UserRegistry.access$1000(UserRegistry.java:61)
+	at org.wso2.carbon.registry.core.session.UserRegistry$11.run(UserRegistry.java:804)
+	at org.wso2.carbon.registry.core.session.UserRegistry$11.run(UserRegistry.java:801)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.wso2.carbon.registry.core.session.UserRegistry.put(UserRegistry.java:801)
+	at org.wso2.carbon.registry.indexing.IndexingManager.writeLastAccessTime(IndexingManager.java:229)
+	at org.wso2.carbon.registry.indexing.IndexingManager.stopIndexing(IndexingManager.java:110)
+	at org.wso2.carbon.registry.indexing.internal.IndexingServiceComponent.stopIndexing(IndexingServiceComponent.java:128)
+	at org.wso2.carbon.registry.indexing.internal.IndexingServiceComponent.unsetRegistryService(IndexingServiceComponent.java:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.internal.ds.model.ComponentReference.unbind(ComponentReference.java:476)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.unbindReference(ServiceComponentProp.java:617)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.unbind(ServiceComponentProp.java:262)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:388)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:102)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:344)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:368)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:225)
+	at org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent.deactivate(RegistryCoreServiceComponent.java:207)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.deactivate(ServiceComponent.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.deactivate(ServiceComponentProp.java:161)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:102)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:344)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:368)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:225)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.unregisterServices(ServiceRegistry.java:635)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.close(BundleContextImpl.java:88)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:514)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:566)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:592)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:400)
+	at org.wso2.carbon.core.init.CarbonServerManager.shutdown(CarbonServerManager.java:850)
+	at org.wso2.carbon.core.init.CarbonServerManager.shutdownGracefully(CarbonServerManager.java:884)
+	at org.wso2.carbon.core.init.CarbonServerManager$4.run(CarbonServerManager.java:902)
+Caused by: com.hazelcast.core.HazelcastInstanceNotActiveException: Hazelcast instance is not active!
+	at com.hazelcast.instance.HazelcastInstanceProxy.getOriginal(HazelcastInstanceProxy.java:271)
+	at com.hazelcast.instance.HazelcastInstanceProxy.getMap(HazelcastInstanceProxy.java:75)
+	at org.wso2.carbon.core.clustering.hazelcast.HazelcastDistributedMapProvider$DistMap.<init>(HazelcastDistributedMapProvider.java:68)
+	at org.wso2.carbon.core.clustering.hazelcast.HazelcastDistributedMapProvider.getMap(HazelcastDistributedMapProvider.java:47)
+	at org.wso2.carbon.caching.impl.CacheImpl.<init>(CacheImpl.java:120)
+	at org.wso2.carbon.caching.impl.CarbonCacheManager.getCache(CarbonCacheManager.java:121)
+	at org.wso2.carbon.registry.core.utils.RegistryUtils.getUUIDCache(RegistryUtils.java:319)
+	at org.wso2.carbon.registry.core.caching.CachingHandler.getUUIDCache(CachingHandler.java:87)
+	at org.wso2.carbon.registry.core.caching.CachingHandler.removeFromCache(CachingHandler.java:271)
+	at org.wso2.carbon.registry.core.caching.CachingHandler.clearCache(CachingHandler.java:192)
+	at org.wso2.carbon.registry.core.caching.CachingHandler.clearCache(CachingHandler.java:98)
+	at org.wso2.carbon.registry.core.caching.CachingHandler.put(CachingHandler.java:341)
+	at org.wso2.carbon.registry.core.jdbc.handlers.HandlerManager.put(HandlerManager.java:2503)
+	... 68 more
+TID: [-1234] [] [2019-01-15 08:52:08,046]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown complete {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [-1234] [] [2019-01-15 08:52:08,046]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Halting JVM {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [-1] [] [2019-01-15 10:10:20,293]  INFO {org.wso2.andes.wso2.internal.QpidBundleActivator} -  Setting BundleContext in PluginManager {org.wso2.andes.wso2.internal.QpidBundleActivator}
+TID: [-1234] [] [2019-01-15 10:10:21,410]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Starting WSO2 Carbon... {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [-1234] [] [2019-01-15 10:10:21,410]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Operating System : Mac OS X 10.14.2, x86_64 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [-1234] [] [2019-01-15 10:10:21,410]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Home        : /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [-1234] [] [2019-01-15 10:10:21,411]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Version     : 1.8.0_151 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [-1234] [] [2019-01-15 10:10:21,411]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java VM          : Java HotSpot(TM) 64-Bit Server VM 25.151-b12,Oracle Corporation {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [-1234] [] [2019-01-15 10:10:21,411]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Carbon Home      : /Library/WSO2/Store {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [-1234] [] [2019-01-15 10:10:21,411]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Temp Dir    : /Library/WSO2/Store/tmp {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [-1234] [] [2019-01-15 10:10:21,411]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  User             : marcosmartinezhernandez, en-US, Europe/Madrid {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [-1234] [] [2019-01-15 10:10:21,501]  WARN {org.wso2.carbon.core.bootup.validator.util.ValidationResultPrinter} -  Carbon is configured to use the default keystore (wso2carbon.jks). To maximize security when deploying to a production environment, configure a new keystore with a unique password in the production server profile. {org.wso2.carbon.core.bootup.validator.util.ValidationResultPrinter}
+TID: [-1] [] [2019-01-15 10:10:21,787]  INFO {org.wso2.carbon.event.output.adapter.kafka.internal.ds.KafkaEventAdapterServiceDS} -  Successfully deployed the Kafka output event adaptor service {org.wso2.carbon.event.output.adapter.kafka.internal.ds.KafkaEventAdapterServiceDS}
+TID: [-1] [] [2019-01-15 10:10:21,856]  INFO {org.wso2.carbon.event.processor.manager.core.internal.util.ManagementModeConfigurationLoader} -  CEP started in Single node mode {org.wso2.carbon.event.processor.manager.core.internal.util.ManagementModeConfigurationLoader}
+TID: [-1] [] [2019-01-15 10:10:21,895]  INFO {org.wso2.carbon.event.template.manager.core.internal.ds.TemplateDeployerServiceTrackerDS} -  Successfully deployed the execution manager tracker service {org.wso2.carbon.event.template.manager.core.internal.ds.TemplateDeployerServiceTrackerDS}
+TID: [-1234] [] [2019-01-15 10:10:23,409]  WARN {org.apache.tomcat.jdbc.pool.ConnectionPool} -  maxIdle is larger than maxActive, setting maxIdle to: 40 {org.apache.tomcat.jdbc.pool.ConnectionPool}
+TID: [-1234] [] [2019-01-15 10:10:23,808]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiver} -  Started Binary SSL Transport on port : 9714 {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiver}
+TID: [-1234] [] [2019-01-15 10:10:23,809]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiver} -  Started Binary TCP Transport on port : 9614 {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiver}
+TID: [-1234] [] [2019-01-15 10:10:23,822]  INFO {org.wso2.carbon.databridge.core.internal.DataBridgeDS} -  Successfully deployed Agent Server  {org.wso2.carbon.databridge.core.internal.DataBridgeDS}
+TID: [-1234] [] [2019-01-15 10:10:24,365]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} -  Configured Registry in 72ms {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService}
+TID: [-1234] [] [2019-01-15 10:10:24,383]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} -  Connected to mount at govregistry in 1ms {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService}
+TID: [-1234] [] [2019-01-15 10:10:24,430]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} -  Connected to mount at govregistry in 0ms {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService}
+TID: [-1234] [] [2019-01-15 10:10:24,436]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} -  Registry Mode    : READ-WRITE {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent}
+TID: [-1234] [] [2019-01-15 10:10:24,451]  INFO {org.wso2.andes.configuration.AndesConfigurationManager} -  Main andes configuration located at : /Library/WSO2/Store/repository/conf/broker.xml {org.wso2.andes.configuration.AndesConfigurationManager}
+TID: [-1234] [] [2019-01-15 10:10:24,594]  INFO {org.wso2.andes.configuration.AndesConfigurationManager} -  Main andes configuration located at : /Library/WSO2/Store/repository/conf/broker.xml {org.wso2.andes.configuration.AndesConfigurationManager}
+TID: [-1234] [] [2019-01-15 10:10:26,967]  INFO {org.wso2.carbon.metrics.impl.util.JmxReporterBuilder} -  Creating JMX reporter for Metrics with domain 'org.wso2.carbon.metrics' {org.wso2.carbon.metrics.impl.util.JmxReporterBuilder}
+TID: [-1234] [] [2019-01-15 10:10:26,973]  INFO {org.wso2.carbon.metrics.impl.util.JDBCReporterBuilder} -  Creating JDBC reporter for Metrics with source 'marcoss-mbp.gfi.es', data source 'jdbc/WSO2MetricsDB' and 60 seconds polling period {org.wso2.carbon.metrics.impl.util.JDBCReporterBuilder}
+TID: [-1234] [] [2019-01-15 10:10:26,978]  INFO {org.wso2.carbon.metrics.impl.reporter.AbstractReporter} -  Started JDBC reporter for Metrics {org.wso2.carbon.metrics.impl.reporter.AbstractReporter}
+TID: [-1234] [] [2019-01-15 10:10:26,978]  INFO {org.wso2.carbon.metrics.impl.reporter.AbstractReporter} -  Started JMX reporter for Metrics {org.wso2.carbon.metrics.impl.reporter.AbstractReporter}
+TID: [-1234] [] [2019-01-15 10:10:28,509]  INFO {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Default Embedded Solr Server Initialized {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2019-01-15 10:10:28,707]  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} -  Carbon UserStoreMgtDSComponent activated successfully. {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent}
+TID: [-1] [] [2019-01-15 10:10:35,511]  INFO {org.apache.catalina.startup.TaglibUriRule} -  TLD skipped. URI: http://tiles.apache.org/tags-tiles is already defined {org.apache.catalina.startup.TaglibUriRule}
+TID: [-1234] [] [2019-01-15 10:10:36,235]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been enabled {org.apache.axis2.deployment.ClusterBuilder}
+TID: [-1234] [] [2019-01-15 10:10:36,240]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Running in application mode {org.apache.axis2.deployment.ClusterBuilder}
+TID: [-1234] [] [2019-01-15 10:10:36,446]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} -  User Store Configuration Deployer initiated. {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer}
+TID: [-1234] [] [2019-01-15 10:10:36,447]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} -  User Store Configuration Deployer initiated. {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer}
+TID: [-1234] [] [2019-01-15 10:10:36,455]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSender} -  Initializing Pass-through HTTP/S Sender... {org.apache.synapse.transport.passthru.PassThroughHttpSender}
+TID: [-1234] [] [2019-01-15 10:10:36,461]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSender} -  No proxy configuration found {org.apache.synapse.transport.passthru.PassThroughHttpSender}
+TID: [-1234] [] [2019-01-15 10:10:36,488]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSender} -  Pass-through HTTP Sender started... {org.apache.synapse.transport.passthru.PassThroughHttpSender}
+TID: [-1234] [] [2019-01-15 10:10:36,488]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender} -  Initializing Pass-through HTTP/S Sender... {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender}
+TID: [-1234] [] [2019-01-15 10:10:36,489]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender} -  No proxy configuration found {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender}
+TID: [-1234] [] [2019-01-15 10:10:36,491]  INFO {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder} -  HTTPS Loading Identity Keystore from : repository/resources/security/wso2carbon.jks {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder}
+TID: [-1234] [] [2019-01-15 10:10:36,495]  INFO {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder} -  HTTPS Loading Trust Keystore from : repository/resources/security/client-truststore.jks {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder}
+TID: [-1234] [] [2019-01-15 10:10:36,500]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender} -  Pass-through HTTPS Sender started... {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender}
+TID: [-1234] [] [2019-01-15 10:10:36,511]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} -  Initializing Pass-through HTTP/S Listener... {org.apache.synapse.transport.passthru.PassThroughHttpListener}
+TID: [-1234] [] [2019-01-15 10:10:36,541]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener} -  Initializing Pass-through HTTP/S Listener... {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener}
+TID: [-1234] [] [2019-01-15 10:10:36,709]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v19 - file:/Library/WSO2/Store/repository/deployment/client/modules/addressing-1.6.1-wso2v19.mar {org.apache.axis2.deployment.ModuleDeployer}
+TID: [-1234] [] [2019-01-15 10:10:37,085]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.andes.admin-3.1.6 -  {org.apache.axis2.deployment.DeploymentEngine}
+TID: [-1234] [] [2019-01-15 10:10:37,105]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.andes.event.admin-3.1.6 -  {org.apache.axis2.deployment.DeploymentEngine}
+TID: [-1234] [] [2019-01-15 10:10:37,852]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.message.processor-4.6.1 -  {org.apache.axis2.deployment.DeploymentEngine}
+TID: [-1234] [] [2019-01-15 10:10:37,858]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.message.store-4.6.1 -  {org.apache.axis2.deployment.DeploymentEngine}
+TID: [-1234] [] [2019-01-15 10:10:38,093]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.registry.ws.api-4.5.6 -  {org.apache.axis2.deployment.DeploymentEngine}
+TID: [-1234] [] [2019-01-15 10:10:38,575]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Repository       : /Library/WSO2/Store/repository/deployment/server/ {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [-1] [] [2019-01-15 10:10:38,579]  INFO {org.wso2.carbon.event.input.adapter.kafka.internal.ds.KafkaEventAdapterServiceHolder} -  Kafka input event adaptor waiting for dependent configurations to load {org.wso2.carbon.event.input.adapter.kafka.internal.ds.KafkaEventAdapterServiceHolder}
+TID: [-1234] [] [2019-01-15 10:10:38,650]  INFO {org.wso2.carbon.andes.core.internal.ds.QueueManagerServiceDS} -  Successfully created the queue manager service {org.wso2.carbon.andes.core.internal.ds.QueueManagerServiceDS}
+TID: [-1234] [] [2019-01-15 10:10:38,653]  INFO {org.wso2.carbon.andes.core.internal.ds.SubscriptionManagerServiceDS} -  Successfully created the subscription manager service {org.wso2.carbon.andes.core.internal.ds.SubscriptionManagerServiceDS}
+TID: [-1234] [] [2019-01-15 10:10:38,981]  INFO {org.wso2.carbon.core.multitenancy.eager.TenantLoadingConfig} -  Using tenant lazy loading policy... {org.wso2.carbon.core.multitenancy.eager.TenantLoadingConfig}
+TID: [-1234] [] [2019-01-15 10:10:38,993]  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} -  Permission cache updated for tenant -1234 {org.wso2.carbon.core.internal.permission.update.PermissionUpdater}
+TID: [-1234] [] [2019-01-15 10:10:39,289]  INFO {org.wso2.carbon.identity.application.authentication.framework.store.SessionDataStore} -  Thread pool size for session persistent consumer : 100 {org.wso2.carbon.identity.application.authentication.framework.store.SessionDataStore}
+TID: [-1234] [] [2019-01-15 10:10:39,302]  INFO {org.wso2.carbon.identity.application.authentication.framework.store.SessionDataStore} -  Session Data Operations CleanUp Task of Authentication framework is not enabled. {org.wso2.carbon.identity.application.authentication.framework.store.SessionDataStore}
+TID: [-1234] [] [2019-01-15 10:10:39,346]  INFO {org.wso2.carbon.identity.oauth2.internal.OAuth2ServiceComponent} -  PKCE Support enabled. {org.wso2.carbon.identity.oauth2.internal.OAuth2ServiceComponent}
+TID: [-1] [] [2019-01-15 10:10:39,369]  INFO {org.wso2.carbon.identity.entitlement.internal.SchemaBuilder} -  XACML policy schema loaded successfully. {org.wso2.carbon.identity.entitlement.internal.SchemaBuilder}
+TID: [-1234] [] [2019-01-15 10:10:39,412]  INFO {org.wso2.carbon.mediation.initializer.ServiceBusInitializer} -  Starting ESB... {org.wso2.carbon.mediation.initializer.ServiceBusInitializer}
+TID: [-1234] [] [2019-01-15 10:10:39,439]  INFO {org.wso2.carbon.mediation.initializer.ServiceBusInitializer} -  Initializing Apache Synapse... {org.wso2.carbon.mediation.initializer.ServiceBusInitializer}
+TID: [-1234] [] [2019-01-15 10:10:39,444]  INFO {org.apache.synapse.SynapseControllerFactory} -  Using Synapse home : /Library/WSO2/Store/. {org.apache.synapse.SynapseControllerFactory}
+TID: [-1234] [] [2019-01-15 10:10:39,445]  INFO {org.apache.synapse.SynapseControllerFactory} -  Using synapse.xml location : /Library/WSO2/Store/././repository/deployment/server/synapse-configs/default {org.apache.synapse.SynapseControllerFactory}
+TID: [-1234] [] [2019-01-15 10:10:39,445]  INFO {org.apache.synapse.SynapseControllerFactory} -  Using server name : localhost {org.apache.synapse.SynapseControllerFactory}
+TID: [-1234] [] [2019-01-15 10:10:39,448]  INFO {org.apache.synapse.SynapseControllerFactory} -  The timeout handler will run every : 15s {org.apache.synapse.SynapseControllerFactory}
+TID: [-1234] [] [2019-01-15 10:10:39,455]  INFO {org.apache.synapse.Axis2SynapseController} -  Initializing Synapse at : Tue Jan 15 10:10:39 CET 2019 {org.apache.synapse.Axis2SynapseController}
+TID: [-1234] [] [2019-01-15 10:10:39,464]  INFO {org.wso2.carbon.mediation.initializer.CarbonSynapseController} -  Loading the mediation configuration from the file system {org.wso2.carbon.mediation.initializer.CarbonSynapseController}
+TID: [-1234] [] [2019-01-15 10:10:39,468]  INFO {org.apache.synapse.config.xml.MultiXMLConfigurationBuilder} -  Building synapse configuration from the synapse artifact repository at : ././repository/deployment/server/synapse-configs/default {org.apache.synapse.config.xml.MultiXMLConfigurationBuilder}
+TID: [-1234] [] [2019-01-15 10:10:39,468]  INFO {org.apache.synapse.config.xml.XMLConfigurationBuilder} -  Generating the Synapse configuration model by parsing the XML configuration {org.apache.synapse.config.xml.XMLConfigurationBuilder}
+TID: [-1234] [] [2019-01-15 10:10:39,688]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} -  API : WSO2.ORG/admin--testCalc:v1.0.0 was added to the Synapse configuration successfully {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker}
+TID: [-1234] [] [2019-01-15 10:10:39,698]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} -  API : WSO2.ORG/admin--PizzaShackAPI:v1.0.0 was added to the Synapse configuration successfully {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker}
+TID: [-1234] [] [2019-01-15 10:10:39,701]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} -  API : _WSO2AMUserInfoAPI_ was added to the Synapse configuration successfully {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker}
+TID: [-1234] [] [2019-01-15 10:10:39,705]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} -  API : _WSO2AMRevokeAPI_ was added to the Synapse configuration successfully {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker}
+TID: [-1234] [] [2019-01-15 10:10:39,707]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} -  API : _WSO2AMAuthorizeAPI_ was added to the Synapse configuration successfully {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker}
+TID: [-1234] [] [2019-01-15 10:10:39,711]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} -  API : WSO2.ORG/admin--testCalc was added to the Synapse configuration successfully {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker}
+TID: [-1234] [] [2019-01-15 10:10:39,712]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} -  API : _WSO2AMTokenAPI_ was added to the Synapse configuration successfully {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker}
+TID: [-1234] [] [2019-01-15 10:10:39,713]  INFO {org.apache.synapse.config.SynapseConfigurationBuilder} -  Loaded Synapse configuration from the artifact repository at : ././repository/deployment/server/synapse-configs/default {org.apache.synapse.config.SynapseConfigurationBuilder}
+TID: [-1234] [] [2019-01-15 10:10:39,717]  INFO {org.apache.synapse.Axis2SynapseController} -  Loading mediator extensions... {org.apache.synapse.Axis2SynapseController}
+TID: [-1234] [] [2019-01-15 10:10:39,988]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: echo {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [-1234] [] [2019-01-15 10:10:39,988]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Echo.aar - file:/Library/WSO2/Store/repository/deployment/server/axis2services/Echo.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [-1234] [] [2019-01-15 10:10:39,995]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: Version {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [-1234] [] [2019-01-15 10:10:39,995]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Version.aar - file:/Library/WSO2/Store/repository/deployment/server/axis2services/Version.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [-1234] [] [2019-01-15 10:10:40,028]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} -  Stream definition is deployed successfully  : org.wso2.throttle.globalThrottle.stream:1.0.0 {org.wso2.carbon.event.stream.core.EventStreamDeployer}
+TID: [-1234] [] [2019-01-15 10:10:40,031]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} -  Stream definition is deployed successfully  : org.wso2.throttle.processed.request.stream:1.0.0 {org.wso2.carbon.event.stream.core.EventStreamDeployer}
+TID: [-1234] [] [2019-01-15 10:10:40,033]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} -  Stream definition is deployed successfully  : org.wso2.throttle.request.stream:1.0.0 {org.wso2.carbon.event.stream.core.EventStreamDeployer}
+TID: [-1234] [] [2019-01-15 10:10:40,049]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  WSO2EventConsumer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0 {org.wso2.carbon.event.stream.core.internal.EventJunction}
+TID: [-1234] [] [2019-01-15 10:10:40,050]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher configuration successfully deployed and in active state : jmsEventPublisher {org.wso2.carbon.event.publisher.core.EventPublisherDeployer}
+TID: [-1234] [] [2019-01-15 10:10:40,059]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} -  Connecting receiver throttleWSO2EventReceiver {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime}
+TID: [-1234] [] [2019-01-15 10:10:40,059]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Producer added to the junction. Stream:org.wso2.throttle.request.stream:1.0.0 {org.wso2.carbon.event.stream.core.internal.EventJunction}
+TID: [-1234] [] [2019-01-15 10:10:40,060]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event Receiver configuration successfully deployed and in active state: throttleWSO2EventReceiver {org.wso2.carbon.event.receiver.core.EventReceiverDeployer}
+TID: [-1234] [] [2019-01-15 10:10:40,228]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Producer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0 {org.wso2.carbon.event.stream.core.internal.EventJunction}
+TID: [-1234] [] [2019-01-15 10:10:40,229]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Consumer added to the junction. Stream:org.wso2.throttle.request.stream:1.0.0 {org.wso2.carbon.event.stream.core.internal.EventJunction}
+TID: [-1234] [] [2019-01-15 10:10:40,229]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : requestPreProcessorExecutionPlan {org.wso2.carbon.event.processor.core.EventProcessorDeployer}
+TID: [-1234] [] [2019-01-15 10:10:40,307]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0 {org.wso2.carbon.event.stream.core.internal.EventJunction}
+TID: [-1234] [] [2019-01-15 10:10:40,307]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0 {org.wso2.carbon.event.stream.core.internal.EventJunction}
+TID: [-1234] [] [2019-01-15 10:10:40,308]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : carbon.super_app_10PerMin {org.wso2.carbon.event.processor.core.EventProcessorDeployer}
+TID: [-1234] [] [2019-01-15 10:10:40,339]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0 {org.wso2.carbon.event.stream.core.internal.EventJunction}
+TID: [-1234] [] [2019-01-15 10:10:40,339]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0 {org.wso2.carbon.event.stream.core.internal.EventJunction}
+TID: [-1234] [] [2019-01-15 10:10:40,339]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : carbon.super_app_20PerMin {org.wso2.carbon.event.processor.core.EventProcessorDeployer}
+TID: [-1234] [] [2019-01-15 10:10:40,386]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0 {org.wso2.carbon.event.stream.core.internal.EventJunction}
+TID: [-1234] [] [2019-01-15 10:10:40,386]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0 {org.wso2.carbon.event.stream.core.internal.EventJunction}
+TID: [-1234] [] [2019-01-15 10:10:40,386]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : carbon.super_app_50PerMin {org.wso2.carbon.event.processor.core.EventProcessorDeployer}
+TID: [-1234] [] [2019-01-15 10:10:40,422]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0 {org.wso2.carbon.event.stream.core.internal.EventJunction}
+TID: [-1234] [] [2019-01-15 10:10:40,423]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0 {org.wso2.carbon.event.stream.core.internal.EventJunction}
+TID: [-1234] [] [2019-01-15 10:10:40,423]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : carbon.super_resource_10KPerMin_default {org.wso2.carbon.event.processor.core.EventProcessorDeployer}
+TID: [-1234] [] [2019-01-15 10:10:40,469]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0 {org.wso2.carbon.event.stream.core.internal.EventJunction}
+TID: [-1234] [] [2019-01-15 10:10:40,469]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0 {org.wso2.carbon.event.stream.core.internal.EventJunction}
+TID: [-1234] [] [2019-01-15 10:10:40,469]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : carbon.super_resource_20KPerMin_default {org.wso2.carbon.event.processor.core.EventProcessorDeployer}
+TID: [-1234] [] [2019-01-15 10:10:40,509]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0 {org.wso2.carbon.event.stream.core.internal.EventJunction}
+TID: [-1234] [] [2019-01-15 10:10:40,509]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0 {org.wso2.carbon.event.stream.core.internal.EventJunction}
+TID: [-1234] [] [2019-01-15 10:10:40,509]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : carbon.super_resource_50KPerMin_default {org.wso2.carbon.event.processor.core.EventProcessorDeployer}
+TID: [-1234] [] [2019-01-15 10:10:40,545]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0 {org.wso2.carbon.event.stream.core.internal.EventJunction}
+TID: [-1234] [] [2019-01-15 10:10:40,545]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0 {org.wso2.carbon.event.stream.core.internal.EventJunction}
+TID: [-1234] [] [2019-01-15 10:10:40,545]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : carbon.super_sub_Bronze {org.wso2.carbon.event.processor.core.EventProcessorDeployer}
+TID: [-1234] [] [2019-01-15 10:10:40,580]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0 {org.wso2.carbon.event.stream.core.internal.EventJunction}
+TID: [-1234] [] [2019-01-15 10:10:40,580]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0 {org.wso2.carbon.event.stream.core.internal.EventJunction}
+TID: [-1234] [] [2019-01-15 10:10:40,580]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : carbon.super_sub_Gold {org.wso2.carbon.event.processor.core.EventProcessorDeployer}
+TID: [-1234] [] [2019-01-15 10:10:40,616]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0 {org.wso2.carbon.event.stream.core.internal.EventJunction}
+TID: [-1234] [] [2019-01-15 10:10:40,616]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0 {org.wso2.carbon.event.stream.core.internal.EventJunction}
+TID: [-1234] [] [2019-01-15 10:10:40,616]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : carbon.super_sub_Silver {org.wso2.carbon.event.processor.core.EventProcessorDeployer}
+TID: [-1234] [] [2019-01-15 10:10:40,647]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0 {org.wso2.carbon.event.stream.core.internal.EventJunction}
+TID: [-1234] [] [2019-01-15 10:10:40,648]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0 {org.wso2.carbon.event.stream.core.internal.EventJunction}
+TID: [-1234] [] [2019-01-15 10:10:40,648]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : carbon.super_sub_Unauthenticated {org.wso2.carbon.event.processor.core.EventProcessorDeployer}
+TID: [-1234] [] [2019-01-15 10:10:41,977]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/am/sample/calculator/v1].File[/Library/WSO2/Store/repository/deployment/server/webapps/am#sample#calculator#v1.war] {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer}
+TID: [-1234] [] [2019-01-15 10:10:43,069]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/am/sample/pizzashack/v1].File[/Library/WSO2/Store/repository/deployment/server/webapps/am#sample#pizzashack#v1.war] {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer}
+TID: [-1234] [] [2019-01-15 10:10:44,813]  INFO {org.apache.cxf.endpoint.ServerImpl} -  Setting the server's publish address to be / {org.apache.cxf.endpoint.ServerImpl}
+TID: [-1234] [] [2019-01-15 10:10:44,900]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/admin/v0.10].File[/Library/WSO2/Store/repository/deployment/server/webapps/api#am#admin#v0.10.war] {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer}
+TID: [-1234] [] [2019-01-15 10:10:46,619]  INFO {org.apache.cxf.endpoint.ServerImpl} -  Setting the server's publish address to be / {org.apache.cxf.endpoint.ServerImpl}
+TID: [-1234] [] [2019-01-15 10:10:46,707]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/publisher/v0.10].File[/Library/WSO2/Store/repository/deployment/server/webapps/api#am#publisher#v0.10.war] {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer}
+TID: [-1234] [] [2019-01-15 10:10:48,438]  INFO {org.apache.cxf.endpoint.ServerImpl} -  Setting the server's publish address to be / {org.apache.cxf.endpoint.ServerImpl}
+TID: [-1234] [] [2019-01-15 10:10:48,526]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/store/v0.10].File[/Library/WSO2/Store/repository/deployment/server/webapps/api#am#store#v0.10.war] {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer}
+TID: [-1234] [] [2019-01-15 10:10:48,756]  INFO {org.wso2.carbon.identity.application.authentication.endpoint.util.TenantDataManager} -  EndpointConfig.properties file loaded from ./repository/conf/identity/EndpointConfig.properties {org.wso2.carbon.identity.application.authentication.endpoint.util.TenantDataManager}
+TID: [-1234] [] [2019-01-15 10:10:49,216]  INFO {org.apache.jasper.compiler.TldLocationsCache} -  At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. {org.apache.jasper.compiler.TldLocationsCache}
+TID: [-1234] [] [2019-01-15 10:10:49,810]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/authenticationendpoint].File[/Library/WSO2/Store/repository/deployment/server/webapps/authenticationendpoint.war] {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer}
+TID: [-1234] [] [2019-01-15 10:10:51,558]  INFO {org.apache.cxf.endpoint.ServerImpl} -  Setting the server's publish address to be /register {org.apache.cxf.endpoint.ServerImpl}
+TID: [-1234] [] [2019-01-15 10:10:51,633]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/client-registration/v0.10].File[/Library/WSO2/Store/repository/deployment/server/webapps/client-registration#v0.10.war] {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer}
+TID: [-1234] [] [2019-01-15 10:10:53,226]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/oauth2].File[/Library/WSO2/Store/repository/deployment/server/webapps/oauth2.war] {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer}
+TID: [-1234] [] [2019-01-15 10:10:55,604]  INFO {org.apache.shindig.gadgets.features.FeatureRegistry} -  Resources from res:features/features.txt are loading. {org.apache.shindig.gadgets.features.FeatureRegistry}
+TID: [-1234] [] [2019-01-15 10:10:55,611]  INFO {org.apache.shindig.common.xml.XmlUtil} -  The XML processor being used does not support secure parsing. {org.apache.shindig.common.xml.XmlUtil}
+TID: [-1234] [] [2019-01-15 10:10:55,612]  INFO {org.apache.shindig.common.xml.XmlUtil} -  Document builders are being reused. {org.apache.shindig.common.xml.XmlUtil}
+TID: [-1234] [] [2019-01-15 10:10:55,802]  INFO {org.apache.shindig.gadgets.features.FeatureRegistry} -  Resources from res:features-extras/features.txt are loading. {org.apache.shindig.gadgets.features.FeatureRegistry}
+TID: [-1234] [] [2019-01-15 10:10:55,822]  INFO {org.apache.shindig.gadgets.features.FeatureRegistry} -  Resources from res:wso2features/features.txt are loading. {org.apache.shindig.gadgets.features.FeatureRegistry}
+TID: [-1234] [] [2019-01-15 10:10:55,908]  INFO {org.apache.shindig.config.JsonContainerConfigLoader} -  Resources from containers/default/container.js are loading. {org.apache.shindig.config.JsonContainerConfigLoader}
+TID: [-1234] [] [2019-01-15 10:10:55,908]  INFO {org.apache.shindig.config.JsonContainerConfigLoader} -  Container configuration containers/default/container.js is being read. {org.apache.shindig.config.JsonContainerConfigLoader}
+TID: [-1234] [] [2019-01-15 10:10:56,348]  INFO {org.apache.shindig.gadgets.oauth2.logger.FilteredLogger} -  Using random key for OAuth2 client-side state encryption {org.apache.shindig.gadgets.oauth2.logger.FilteredLogger}
+TID: [-1234] [] [2019-01-15 10:10:56,348]  INFO {org.apache.shindig.gadgets.oauth2.logger.FilteredLogger} -  OAuth2CrypterProvider constructor {org.apache.shindig.gadgets.oauth2.logger.FilteredLogger}
+TID: [-1234] [] [2019-01-15 10:10:56,354]  INFO {org.apache.shindig.gadgets.oauth.OAuthModule$OAuthCrypterProvider} -  Using random key for OAuth client-side state encryption {org.apache.shindig.gadgets.oauth.OAuthModule$OAuthCrypterProvider}
+TID: [-1234] [] [2019-01-15 10:10:56,354]  INFO {org.apache.shindig.gadgets.oauth.OAuthModule} -  A random key for OAuth client-side state encryption is being used. {org.apache.shindig.gadgets.oauth.OAuthModule}
+TID: [-1234] [] [2019-01-15 10:10:56,355]  INFO {org.apache.shindig.gadgets.oauth.OAuthModule} -  The OAuth signing key from res://wso2carbon.pem is loading. {org.apache.shindig.gadgets.oauth.OAuthModule}
+TID: [-1234] [] [2019-01-15 10:10:56,517]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/shindig].File[/Library/WSO2/Store/repository/deployment/server/webapps/shindig.war] {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer}
+TID: [-1234] [] [2019-01-15 10:10:58,230]  INFO {org.apache.cxf.endpoint.ServerImpl} -  Setting the server's publish address to be / {org.apache.cxf.endpoint.ServerImpl}
+TID: [-1234] [] [2019-01-15 10:10:58,294]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/throttle/data/v1].File[/Library/WSO2/Store/repository/deployment/server/webapps/throttle#data#v1.war] {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer}
+TID: [-1234] [] [2019-01-15 10:10:59,263]  INFO {org.apache.synapse.Axis2SynapseController} -  Deploying the Synapse service... {org.apache.synapse.Axis2SynapseController}
+TID: [-1234] [] [2019-01-15 10:10:59,264]  INFO {org.apache.synapse.Axis2SynapseController} -  Deploying Proxy services... {org.apache.synapse.Axis2SynapseController}
+TID: [-1234] [] [2019-01-15 10:10:59,265]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Building Axis service for Proxy service : WorkflowCallbackService {org.apache.synapse.core.axis2.ProxyService}
+TID: [-1234] [] [2019-01-15 10:10:59,271]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Adding service WorkflowCallbackService to the Axis2 configuration {org.apache.synapse.core.axis2.ProxyService}
+TID: [-1234] [] [2019-01-15 10:10:59,273]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: WorkflowCallbackService {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [-1234] [] [2019-01-15 10:10:59,274]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Successfully created the Axis2 service for Proxy service : WorkflowCallbackService {org.apache.synapse.core.axis2.ProxyService}
+TID: [-1234] [] [2019-01-15 10:10:59,274]  INFO {org.apache.synapse.Axis2SynapseController} -  Deployed Proxy service : WorkflowCallbackService {org.apache.synapse.Axis2SynapseController}
+TID: [-1234] [] [2019-01-15 10:10:59,274]  INFO {org.apache.synapse.Axis2SynapseController} -  Deploying EventSources... {org.apache.synapse.Axis2SynapseController}
+TID: [-1234] [] [2019-01-15 10:10:59,285]  INFO {org.apache.synapse.rest.API} -  Initializing API: _WSO2AMRevokeAPI_ {org.apache.synapse.rest.API}
+TID: [-1234] [] [2019-01-15 10:10:59,285]  INFO {org.apache.synapse.rest.API} -  Initializing API: _WSO2AMAuthorizeAPI_ {org.apache.synapse.rest.API}
+TID: [-1234] [] [2019-01-15 10:10:59,286]  INFO {org.apache.synapse.rest.API} -  Initializing API: _WSO2AMUserInfoAPI_ {org.apache.synapse.rest.API}
+TID: [-1234] [] [2019-01-15 10:10:59,286]  INFO {org.apache.synapse.rest.API} -  Initializing API: _WSO2AMTokenAPI_ {org.apache.synapse.rest.API}
+TID: [-1234] [] [2019-01-15 10:10:59,286]  INFO {org.apache.synapse.rest.API} -  Initializing API: WSO2.ORG/admin--testCalc {org.apache.synapse.rest.API}
+TID: [-1234] [] [2019-01-15 10:10:59,286]  INFO {org.apache.synapse.rest.API} -  Initializing API: WSO2.ORG/admin--PizzaShackAPI:v1.0.0 {org.apache.synapse.rest.API}
+TID: [-1234] [] [2019-01-15 10:10:59,290]  INFO {org.apache.synapse.rest.API} -  Initializing API: WSO2.ORG/admin--testCalc:v1.0.0 {org.apache.synapse.rest.API}
+TID: [-1234] [] [2019-01-15 10:10:59,291]  INFO {org.apache.synapse.ServerManager} -  Server ready for processing... {org.apache.synapse.ServerManager}
+TID: [-1234] [] [2019-01-15 10:10:59,570]  INFO {org.wso2.andes.configuration.AndesConfigurationManager} -  Main andes configuration located at : /Library/WSO2/Store/repository/conf/broker.xml {org.wso2.andes.configuration.AndesConfigurationManager}
+TID: [-1234] [] [2019-01-15 10:10:59,589]  INFO {org.wso2.carbon.andes.internal.QpidServiceComponent} -  Activating Andes Message Broker Engine... {org.wso2.carbon.andes.internal.QpidServiceComponent}
+TID: [-1234] [] [2019-01-15 10:10:59,601]  INFO {org.wso2.andes.server.Broker} -  Starting Qpid using configuration : /Library/WSO2/Store/repository/conf/advanced/qpid-config.xml {org.wso2.andes.server.Broker}
+TID: [-1234] [] [2019-01-15 10:10:59,641]  INFO {org.wso2.andes.server.registry.ApplicationRegistry} -  Initialising Application Registry(org.wso2.andes.server.registry.ConfigurationFileApplicationRegistry@20d7c319) {org.wso2.andes.server.registry.ApplicationRegistry}
+TID: [-1234] [] [2019-01-15 10:10:59,662]  INFO {org.wso2.andes.server.plugins.PluginManager} -  Opened service trackers {org.wso2.andes.server.plugins.PluginManager}
+TID: [-1234] [] [2019-01-15 10:10:59,753]  INFO {org.wso2.andes.server.management.JMXManagedObjectRegistry} -  Initialising managed object registry using jplatform MBean server {org.wso2.andes.server.management.JMXManagedObjectRegistry}
+TID: [-1234] [] [2019-01-15 10:10:59,756]  INFO {org.wso2.andes.server.security.auth.manager.PrincipalDatabaseAuthenticationManager} -  PrincipalDatabase concrete implementation : org.wso2.carbon.andes.authentication.andes.CarbonBasedPrincipalDatabase {org.wso2.andes.server.security.auth.manager.PrincipalDatabaseAuthenticationManager}
+TID: [-1234] [] [2019-01-15 10:10:59,759]  INFO {org.wso2.andes.server.security.auth.manager.PrincipalDatabaseAuthenticationManager} -  Initialised PLAIN SASL provider successfully {org.wso2.andes.server.security.auth.manager.PrincipalDatabaseAuthenticationManager}
+TID: [-1234] [] [2019-01-15 10:10:59,759]  INFO {org.wso2.andes.server.security.auth.manager.PrincipalDatabaseAuthenticationManager} -  Additional SASL providers successfully registered. {org.wso2.andes.server.security.auth.manager.PrincipalDatabaseAuthenticationManager}
+TID: [-1234] [] [2019-01-15 10:10:59,760]  INFO {org.wso2.andes.server.security.auth.manager.PrincipalDatabaseAuthenticationManager} -  Registering UserManagementMBean {org.wso2.andes.server.security.auth.manager.PrincipalDatabaseAuthenticationManager}
+TID: [-1234] [] [2019-01-15 10:10:59,799]  INFO {org.wso2.andes.store.rdbms.RDBMSConnection} -  JDBC connection established with jndi config WSO2MBStoreDB {org.wso2.andes.store.rdbms.RDBMSConnection}
+TID: [-1234] [] [2019-01-15 10:10:59,816]  INFO {org.wso2.andes.store.rdbms.RDBMSAndesContextStoreImpl} -  Andes Context Store initialised {org.wso2.andes.store.rdbms.RDBMSAndesContextStoreImpl}
+TID: [-1234] [] [2019-01-15 10:10:59,816]  INFO {org.wso2.andes.kernel.AndesKernelBoot} -  AndesContextStore initialised with org.wso2.andes.store.rdbms.RDBMSAndesContextStoreImpl {org.wso2.andes.kernel.AndesKernelBoot}
+TID: [-1234] [] [2019-01-15 10:10:59,892]  INFO {org.wso2.andes.store.rdbms.RDBMSConnection} -  JDBC connection established with jndi config WSO2MBStoreDB {org.wso2.andes.store.rdbms.RDBMSConnection}
+TID: [-1234] [] [2019-01-15 10:10:59,897]  INFO {org.wso2.andes.store.rdbms.RDBMSMessageStoreImpl} -  Message Store initialised {org.wso2.andes.store.rdbms.RDBMSMessageStoreImpl}
+TID: [-1234] [] [2019-01-15 10:10:59,897]  INFO {org.wso2.andes.kernel.AndesKernelBoot} -  Andes MessageStore initialised with org.wso2.andes.store.rdbms.RDBMSMessageStoreImpl {org.wso2.andes.kernel.AndesKernelBoot}
+TID: [-1234] [] [2019-01-15 10:10:59,906]  WARN {org.wso2.andes.configuration.AndesConfigurationManager} -  Error when trying to read property : transaction/maxWaitTimeout. Switching to default value : 30 {org.wso2.andes.configuration.AndesConfigurationManager}
+TID: [-1234] [] [2019-01-15 10:10:59,970]  INFO {org.wso2.andes.kernel.Andes} -  Andes API initialised. {org.wso2.andes.kernel.Andes}
+TID: [-1234] [] [2019-01-15 10:11:00,017]  INFO {org.wso2.andes.kernel.AndesChannel} -  Channel created (ID: Internel_channel) {org.wso2.andes.kernel.AndesChannel}
+TID: [-1234] [] [2019-01-15 10:11:00,044]  INFO {org.wso2.andes.server.cluster.ClusterManager} -  Clearing the Persisted State of Node with ID NODEmarcoss-mbp.gfi.es/194.140.9.125 {org.wso2.andes.server.cluster.ClusterManager}
+TID: [-1234] [] [2019-01-15 10:11:00,049]  INFO {org.wso2.andes.server.cluster.ClusterManager} -  Initializing Standalone Mode. Current Node ID:NODEmarcoss-mbp.gfi.es/194.140.9.125 194.140.9.125 {org.wso2.andes.server.cluster.ClusterManager}
+TID: [-1234] [] [2019-01-15 10:11:00,055]  INFO {org.wso2.andes.kernel.AndesSubscriptionManager} -  Deactivated all active durable subscriptions {org.wso2.andes.kernel.AndesSubscriptionManager}
+TID: [-1234] [] [2019-01-15 10:11:00,055]  INFO {org.wso2.andes.kernel.AndesKernelBoot} -  Syncing exchanges, queues, bindings and subscriptions {org.wso2.andes.kernel.AndesKernelBoot}
+TID: [-1234] [] [2019-01-15 10:11:00,056]  WARN {org.wso2.andes.kernel.AndesRecoveryTask} -  Recovering node. Adding queue [DeadLetterChannel] OW=WSO2.ORG/admin/X=false/Dtrue/LPT0 {org.wso2.andes.kernel.AndesRecoveryTask}
+TID: [-1234] [] [2019-01-15 10:11:00,095]  INFO {org.wso2.andes.server.virtualhost.VirtualHostConfigSynchronizer} -  Queue sync - Added Queue: DeadLetterChannel, Owner: WSO2.ORG/admin, IsExclusive: false, Arguments: null {org.wso2.andes.server.virtualhost.VirtualHostConfigSynchronizer}
+TID: [-1234] [] [2019-01-15 10:11:00,102]  INFO {org.wso2.andes.kernel.Andes} -  Starting Safe Zone Calculator for slots. {org.wso2.andes.kernel.Andes}
+TID: [-1234] [] [2019-01-15 10:11:00,162]  INFO {qpid.message.broker.listening} -  [Broker] BRK-1002 : Starting : Listening on TCP port 5675 {qpid.message.broker.listening}
+TID: [-1234] [] [2019-01-15 10:11:00,166]  INFO {qpid.message.broker.listening} -  [Broker] BRK-1002 : Starting : Listening on TCP/SSL port 8675 {qpid.message.broker.listening}
+TID: [-1] [] [2019-01-15 10:11:00,171]  INFO {org.wso2.andes.kernel.MessagingEngine} -  Starting SlotDelivery Workers. {org.wso2.andes.kernel.MessagingEngine}
+TID: [-1] [] [2019-01-15 10:11:00,174]  INFO {org.wso2.andes.kernel.MessagingEngine} -  Start Disruptor writing messages to store. {org.wso2.andes.kernel.MessagingEngine}
+TID: [-1234] [] [2019-01-15 10:11:00,175]  INFO {org.wso2.carbon.andes.internal.QpidServiceComponent} -  AMQP Host Address : 0.0.0.0 Port : 5675 {org.wso2.carbon.andes.internal.QpidServiceComponent}
+TID: [-1234] [] [2019-01-15 10:11:00,176]  INFO {org.wso2.carbon.andes.internal.QpidServiceComponent} -  Successfully connected to AMQP server on port 5675 {org.wso2.carbon.andes.internal.QpidServiceComponent}
+TID: [-1234] [] [2019-01-15 10:11:00,177]  WARN {org.wso2.carbon.andes.internal.QpidServiceComponent} -  MQTT Transport is disabled as per configuration. {org.wso2.carbon.andes.internal.QpidServiceComponent}
+TID: [-1234] [] [2019-01-15 10:11:00,177]  INFO {org.wso2.carbon.andes.internal.QpidServiceComponent} -  WSO2 Message Broker is started. {org.wso2.carbon.andes.internal.QpidServiceComponent}
+TID: [-1234] [] [2019-01-15 10:11:00,635]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} -  Starting Pass-through HTTP Listener... {org.apache.synapse.transport.passthru.PassThroughHttpListener}
+TID: [-1234] [] [2019-01-15 10:11:00,640]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} -  Pass-through HTTP Listener started on 0.0.0.0:8283 {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager}
+TID: [-1234] [] [2019-01-15 10:11:00,640]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener} -  Starting Pass-through HTTPS Listener... {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener}
+TID: [-1234] [] [2019-01-15 10:11:00,642]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} -  Pass-through HTTPS Listener started on 0.0.0.0:8246 {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager}
+TID: [-1234] [] [2019-01-15 10:11:00,645]  INFO {org.wso2.carbon.core.clustering.hazelcast.HazelcastClusteringAgent} -  Cluster domain: wso2.pub.store.domain {org.wso2.carbon.core.clustering.hazelcast.HazelcastClusteringAgent}
+TID: [-1234] [] [2019-01-15 10:11:00,645]  INFO {org.wso2.carbon.core.clustering.hazelcast.HazelcastClusteringAgent} -  Loading hazelcast configuration from axis2 clustering configuration {org.wso2.carbon.core.clustering.hazelcast.HazelcastClusteringAgent}
+TID: [-1234] [] [2019-01-15 10:11:00,660]  WARN {org.wso2.carbon.core.clustering.hazelcast.HazelcastClusteringAgent} -  localMemberHost is configured to use the loopback address. Hazelcast Clustering needs ip addresses for localMemberHost and well-known members. {org.wso2.carbon.core.clustering.hazelcast.HazelcastClusteringAgent}
+TID: [-1234] [] [2019-01-15 10:11:00,660]  INFO {org.wso2.carbon.core.clustering.hazelcast.HazelcastClusteringAgent} -  Using wka based membership management scheme {org.wso2.carbon.core.clustering.hazelcast.HazelcastClusteringAgent}
+TID: [-1234] [] [2019-01-15 10:11:00,662]  INFO {org.wso2.carbon.core.clustering.hazelcast.util.MemberUtils} -  Added member: Host:localhost, Remote Host:null, Port: 4100, HTTP:-1, HTTPS:-1, Domain: null, Sub-domain:null, Active:true {org.wso2.carbon.core.clustering.hazelcast.util.MemberUtils}
+TID: [-1234] [] [2019-01-15 10:11:06,114]  INFO {org.wso2.carbon.core.clustering.hazelcast.HazelcastClusteringAgent} -  Hazelcast initialized in 5451ms {org.wso2.carbon.core.clustering.hazelcast.HazelcastClusteringAgent}
+TID: [-1234] [] [2019-01-15 10:11:06,186]  INFO {org.wso2.carbon.core.clustering.hazelcast.HazelcastClusteringAgent} -  Local member: [7d20e9c3-bdf1-4e28-9fb7-fd29885b9ca2] - Host:127.0.0.1, Remote Host:null, Port: 0, HTTP:8283, HTTPS:8246, Domain: wso2.pub.store.domain, Sub-domain:worker, Active:true {org.wso2.carbon.core.clustering.hazelcast.HazelcastClusteringAgent}
+TID: [-1234] [] [2019-01-15 10:11:06,199]  INFO {org.wso2.carbon.core.clustering.hazelcast.HazelcastClusteringAgent} -  Elected this member [7d20e9c3-bdf1-4e28-9fb7-fd29885b9ca2] as the Coordinator node {org.wso2.carbon.core.clustering.hazelcast.HazelcastClusteringAgent}
+TID: [-1] [] [2019-01-15 10:11:06,202]  INFO {org.wso2.carbon.core.clustering.hazelcast.util.MemberUtils} -  Added member: Host:127.0.0.1, Remote Host:null, Port: 0, HTTP:8283, HTTPS:8246, Domain: wso2.pub.store.domain, Sub-domain:worker, Active:true {org.wso2.carbon.core.clustering.hazelcast.util.MemberUtils}
+TID: [-1234] [] [2019-01-15 10:11:06,308]  INFO {org.wso2.andes.server.cluster.coordination.hazelcast.HazelcastAgent} -  Initializing Hazelcast Agent {org.wso2.andes.server.cluster.coordination.hazelcast.HazelcastAgent}
+TID: [-1234] [] [2019-01-15 10:11:06,324]  INFO {org.wso2.andes.server.cluster.coordination.hazelcast.HazelcastAgent} -  Successfully initialized Hazelcast Agent {org.wso2.andes.server.cluster.coordination.hazelcast.HazelcastAgent}
+TID: [-1234] [] [2019-01-15 10:11:06,325]  WARN {org.wso2.carbon.event.processor.manager.core.internal.CarbonEventManagementService} -  CEP started with clustering enabled, but SingleNode configuration given. {org.wso2.carbon.event.processor.manager.core.internal.CarbonEventManagementService}
+TID: [-1234] [] [2019-01-15 10:11:06,327]  INFO {org.wso2.carbon.core.clustering.hazelcast.HazelcastClusteringAgent} -  Cluster initialization completed {org.wso2.carbon.core.clustering.hazelcast.HazelcastClusteringAgent}
+TID: [-1234] [] [2019-01-15 10:11:06,767]  INFO {org.wso2.carbon.databridge.receiver.thrift.ThriftDataReceiver} -  Thrift Server started at 0.0.0.0 {org.wso2.carbon.databridge.receiver.thrift.ThriftDataReceiver}
+TID: [-1234] [] [2019-01-15 10:11:06,775]  INFO {org.wso2.carbon.databridge.receiver.thrift.ThriftDataReceiver} -  Thrift SSL port : 7714 {org.wso2.carbon.databridge.receiver.thrift.ThriftDataReceiver}
+TID: [-1234] [] [2019-01-15 10:11:06,778]  INFO {org.wso2.carbon.databridge.receiver.thrift.ThriftDataReceiver} -  Thrift port : 7614 {org.wso2.carbon.databridge.receiver.thrift.ThriftDataReceiver}
+TID: [-1234] [] [2019-01-15 10:11:06,782]  INFO {org.apache.tomcat.util.net.NioSelectorPool} -  Using a shared selector for servlet write/read {org.apache.tomcat.util.net.NioSelectorPool}
+TID: [-1234] [] [2019-01-15 10:11:06,798]  INFO {org.apache.tomcat.util.net.NioSelectorPool} -  Using a shared selector for servlet write/read {org.apache.tomcat.util.net.NioSelectorPool}
+TID: [-1234] [] [2019-01-15 10:11:06,857]  INFO {org.wso2.carbon.ntask.core.service.impl.TaskServiceImpl} -  Task service starting in CLUSTERED mode... {org.wso2.carbon.ntask.core.service.impl.TaskServiceImpl}
+TID: [-1234] [] [2019-01-15 10:11:07,015]  INFO {org.wso2.carbon.registry.eventing.internal.RegistryEventingServiceComponent} -  Successfully Initialized Eventing on Registry {org.wso2.carbon.registry.eventing.internal.RegistryEventingServiceComponent}
+TID: [-1234] [] [2019-01-15 10:11:07,121]  INFO {org.wso2.carbon.core.init.JMXServerManager} -  JMX Service URL  : service:jmx:rmi://localhost:11114/jndi/rmi://localhost:10002/jmxrmi {org.wso2.carbon.core.init.JMXServerManager}
+TID: [-1234] [] [2019-01-15 10:11:07,124]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  Server           :  WSO2 API Manager-2.0.0 {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent}
+TID: [-1234] [] [2019-01-15 10:11:07,124]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  WSO2 Carbon started in 49 sec {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent}
+TID: [-1234] [] [2019-01-15 10:11:07,370]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} -  Mgt Console URL  : https://194.140.9.125:9446/carbon/ {org.wso2.carbon.ui.internal.CarbonUIServiceComponent}
+TID: [-1234] [] [2019-01-15 10:11:07,370]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} -  API Publisher Default Context : https://194.140.9.125:9446/publisher {org.wso2.carbon.ui.internal.CarbonUIServiceComponent}
+TID: [-1234] [] [2019-01-15 10:11:07,370]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} -  API Store Default Context : https://194.140.9.125:9446/store {org.wso2.carbon.ui.internal.CarbonUIServiceComponent}
+TID: [-1] [] [2019-01-15 10:11:18,584]  INFO {org.wso2.carbon.event.processor.manager.core.internal.CarbonEventManagementService} -  Starting polling event receivers {org.wso2.carbon.event.processor.manager.core.internal.CarbonEventManagementService}
+TID: [-1234] [] [2019-01-15 10:12:03,727]  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} -  Permission cache updated for tenant -1234 {org.wso2.carbon.core.internal.permission.update.PermissionUpdater}
+TID: [-1] [] [2019-01-15 10:26:00,057]  INFO {org.wso2.andes.kernel.AndesRecoveryTask} -  Running DB sync task. {org.wso2.andes.kernel.AndesRecoveryTask}
+TID: [-1] [] [2019-01-15 10:46:38,084]  INFO {org.wso2.andes.kernel.AndesRecoveryTask} -  Running DB sync task. {org.wso2.andes.kernel.AndesRecoveryTask}
+TID: [-1] [] [2019-01-15 11:01:38,084]  INFO {org.wso2.andes.kernel.AndesRecoveryTask} -  Running DB sync task. {org.wso2.andes.kernel.AndesRecoveryTask}
+TID: [-1] [] [2019-01-15 11:16:38,092]  INFO {org.wso2.andes.kernel.AndesRecoveryTask} -  Running DB sync task. {org.wso2.andes.kernel.AndesRecoveryTask}
+TID: [-1234] [] [2019-01-15 11:26:46,106]  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} -  Permission cache updated for tenant -1234 {org.wso2.carbon.core.internal.permission.update.PermissionUpdater}
+TID: [-1234] [] [2019-01-15 11:27:58,330]  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} -  The default OAuth token issuer will be used. No custom token generator is set. {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration}
+TID: [-1234] [] [2019-01-15 11:27:58,330]  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} -  The default Identity OAuth token issuer will be used. No custom token generator is set. {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration}
+TID: [-1234] [] [2019-01-15 11:27:58,338]  INFO {org.wso2.carbon.identity.oauth2.dao.TokenMgtDAO} -  Thread pool size for session persistent consumer : 100 {org.wso2.carbon.identity.oauth2.dao.TokenMgtDAO}
+TID: [-1] [] [2019-01-15 11:28:05,729]  WARN {org.apache.synapse.transport.http.access.AccessConfiguration} -  Error loading properties from file: access-log.properties {org.apache.synapse.transport.http.access.AccessConfiguration}
+TID: [-1234] [] [2019-01-15 11:28:05,823]  INFO {org.apache.synapse.core.axis2.TimeoutHandler} -  This engine will expire all callbacks after : 120 seconds, irrespective of the timeout action, after the specified or optional timeout {org.apache.synapse.core.axis2.TimeoutHandler}
+TID: [-1] [] [2019-01-15 11:31:38,100]  INFO {org.wso2.andes.kernel.AndesRecoveryTask} -  Running DB sync task. {org.wso2.andes.kernel.AndesRecoveryTask}
+TID: [-1] [] [2019-01-15 11:46:38,098]  INFO {org.wso2.andes.kernel.AndesRecoveryTask} -  Running DB sync task. {org.wso2.andes.kernel.AndesRecoveryTask}

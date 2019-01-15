@@ -1,0 +1,28 @@
+[2019-01-14 12:37:08,875]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-14 12:37:08,873+0100] 
+[2019-01-14 12:41:34,549]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-14 12:41:34,547+0100] 
+[2019-01-14 12:56:46,608]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-14 12:56:46,603+0100] 
+[2019-01-14 12:56:56,849]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-14 12:56:56,848+0100] 
+[2019-01-14 13:21:49,580]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-14 13:21:49,576+0100] 
+[2019-01-14 14:53:23,802]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-14 14:53:23,800+0100] 
+[2019-01-14 14:53:51,293]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-14 14:53:51,293+0100] 
+[2019-01-14 15:19:18,886]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-14 15:19:18,885+0100] 
+[2019-01-14 16:23:58,915]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-14 16:23:58,910+0100] 
+[2019-01-14 16:29:36,456]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-14 16:29:36,455+0100] 
+[2019-01-14 16:29:51,915]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-14 16:29:51,914+0100] 
+[2019-01-14 16:30:43,814]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-14 16:30:43,813+0100] 
+[2019-01-14 16:32:38,790]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-14 16:32:38,789+0100] 
+[2019-01-14 16:39:55,645]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-14 16:39:55,644+0100] 
+[2019-01-14 16:40:06,326]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-14 16:40:06,325+0100] 
+[2019-01-14 16:40:44,574]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-14 16:40:44,573+0100] 
+[2019-01-14 16:42:44,853]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-14 16:42:44,853+0100] from IP address  
+[2019-01-14 16:52:08,041]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-14 16:52:08,040+0100] 
+[2019-01-14 16:54:49,674]  INFO {AUDIT_LOG}-  'WSO2.ORG/testUser@carbon.super [-1234]' logged in at [2019-01-14 16:54:49,673+0100] 
+[2019-01-14 16:57:02,458]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-14 16:57:02,457+0100] 
+[2019-01-14 16:58:52,943]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-14 16:58:52,942+0100] 
+[2019-01-14 17:00:31,146]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-14 17:00:31,146+0100] 
+[2019-01-14 17:02:16,146]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-14 17:02:16,145+0100] 
+[2019-01-14 17:02:52,427]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-14 17:02:52,426+0100] 
+[2019-01-14 17:24:27,189]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-14 17:24:27,185+0100] from IP address  
+[2019-01-14 17:32:01,093]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-14 17:32:01,090+0100] from IP address  
+[2019-01-14 17:32:26,661]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-14 17:32:26,660+0100] 
+[2019-01-14 17:42:42,503]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-14 17:42:42,501+0100] from IP address  

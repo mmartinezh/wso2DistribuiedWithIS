@@ -1,0 +1,13 @@
+[2019-01-15 10:11:48,832]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-15 10:11:48,830+0100] 
+[2019-01-15 10:12:03,843]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-15 10:12:03,843+0100] 
+[2019-01-15 10:12:07,974]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-15 10:12:07,974+0100] 
+[2019-01-15 10:12:25,056]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-15 10:12:25,055+0100] from IP address  
+[2019-01-15 10:12:25,247]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-15 10:12:25,247+0100] from IP address  
+[2019-01-15 11:02:10,490]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-15 11:02:10,488+0100] 
+[2019-01-15 11:04:22,940]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-15 11:04:22,940+0100] from IP address  
+[2019-01-15 11:04:23,113]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-15 11:04:23,113+0100] from IP address  
+[2019-01-15 11:25:41,442]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-15 11:25:41,439+0100] 
+[2019-01-15 11:26:46,131]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-15 11:26:46,130+0100] 
+[2019-01-15 11:26:48,238]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-15 11:26:48,238+0100] 
+[2019-01-15 11:40:41,046]  WARN {AUDIT_LOG}-  Failed Administrator login attempt 'admin[-1234]' at [2019-01-15 11:40:41,045+0100] 
+[2019-01-15 11:40:45,644]  INFO {AUDIT_LOG}-  'WSO2.ORG/admin@carbon.super [-1234]' logged in at [2019-01-15 11:40:45,643+0100] 

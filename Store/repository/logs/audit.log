@@ -1,0 +1,1 @@
+[2019-01-14 16:40:51,962]  INFO -  {"performedBy":"WSO2.ORG\/admin","action":"created","typ":"Subscription","info":"{\"application_name\":\"DefaultApplication\",\"tier\":\"Unlimited\",\"provider\":\"WSO2.ORG\\\/admin\",\"api_name\":\"apiCalculator\",\"application_id\":1}"} 

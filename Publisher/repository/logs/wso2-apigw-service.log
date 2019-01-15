@@ -1,0 +1,73 @@
+2019-01-12 23:06:02,382 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Building Axis service for Proxy service : WorkflowCallbackService
+2019-01-12 23:06:02,389 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Adding service WorkflowCallbackService to the Axis2 configuration
+2019-01-12 23:06:02,392 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Successfully created the Axis2 service for Proxy service : WorkflowCallbackService
+2019-01-12 23:17:13,156 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Building Axis service for Proxy service : WorkflowCallbackService
+2019-01-12 23:17:13,162 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Adding service WorkflowCallbackService to the Axis2 configuration
+2019-01-12 23:17:13,165 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Successfully created the Axis2 service for Proxy service : WorkflowCallbackService
+2019-01-12 23:20:10,076 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Building Axis service for Proxy service : WorkflowCallbackService
+2019-01-12 23:20:10,082 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Adding service WorkflowCallbackService to the Axis2 configuration
+2019-01-12 23:20:10,084 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Successfully created the Axis2 service for Proxy service : WorkflowCallbackService
+2019-01-13 18:24:24,028 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Building Axis service for Proxy service : WorkflowCallbackService
+2019-01-13 18:24:24,034 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Adding service WorkflowCallbackService to the Axis2 configuration
+2019-01-13 18:24:24,036 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Successfully created the Axis2 service for Proxy service : WorkflowCallbackService
+2019-01-13 20:01:41,550 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Building Axis service for Proxy service : WorkflowCallbackService
+2019-01-13 20:01:41,555 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Adding service WorkflowCallbackService to the Axis2 configuration
+2019-01-13 20:01:41,557 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Successfully created the Axis2 service for Proxy service : WorkflowCallbackService
+2019-01-13 20:07:18,688 [-] [PassThroughMessageProcessor-1]  INFO __SynapseService STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /calc/1.0.0/add?intA=4&intB=10
+2019-01-13 20:07:18,735 [-] [PassThroughMessageProcessor-1] ERROR __SynapseService Error while building message
+org.apache.axis2.AxisFault: Error while building Passthrough stream
+	at org.apache.synapse.transport.passthru.util.RelayUtils.handleException(RelayUtils.java:287)
+	at org.apache.synapse.transport.passthru.util.RelayUtils.builldMessage(RelayUtils.java:146)
+	at org.apache.synapse.transport.passthru.util.RelayUtils.buildMessage(RelayUtils.java:100)
+	at org.apache.synapse.mediators.AbstractListMediator.buildMessage(AbstractListMediator.java:127)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:81)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:57)
+	at org.apache.synapse.config.xml.AnonymousListMediator.mediate(AnonymousListMediator.java:37)
+	at org.apache.synapse.mediators.filters.FilterMediator.mediate(FilterMediator.java:203)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:95)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:57)
+	at org.apache.synapse.mediators.filters.InMediator.mediate(InMediator.java:74)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:95)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:57)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:158)
+	at org.apache.synapse.core.axis2.Axis2SynapseEnvironment.injectMessage(Axis2SynapseEnvironment.java:310)
+	at org.apache.synapse.core.axis2.SynapseMessageReceiver.receive(SynapseMessageReceiver.java:75)
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:180)
+	at org.apache.synapse.transport.passthru.ServerWorker.processNonEntityEnclosingRESTHandler(ServerWorker.java:319)
+	at org.apache.synapse.transport.passthru.ServerWorker.processEntityEnclosingRequest(ServerWorker.java:365)
+	at org.apache.synapse.transport.passthru.ServerWorker.run(ServerWorker.java:145)
+	at org.apache.axis2.transport.base.threads.NativeWorkerPool$1.run(NativeWorkerPool.java:172)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.axis2.AxisFault: Could not convert JSON Stream to XML. Cannot handle JSON input.
+	at org.apache.synapse.commons.json.JsonUtil.toXml(JsonUtil.java:285)
+	at org.apache.synapse.commons.json.JsonBuilder.processDocument(JsonBuilder.java:35)
+	at org.apache.synapse.transport.passthru.util.DeferredMessageBuilder.getDocument(DeferredMessageBuilder.java:148)
+	at org.apache.synapse.transport.passthru.util.RelayUtils.builldMessage(RelayUtils.java:137)
+	... 22 more
+Caused by: javax.xml.stream.XMLStreamException
+	at org.apache.synapse.commons.staxon.core.base.AbstractXMLStreamReader.initialize(AbstractXMLStreamReader.java:245)
+	at org.apache.synapse.commons.staxon.core.json.JsonXMLStreamReader.<init>(JsonXMLStreamReader.java:66)
+	at org.apache.synapse.commons.staxon.core.json.JsonXMLInputFactory.createXMLStreamReader(JsonXMLInputFactory.java:165)
+	at org.apache.synapse.commons.json.JsonUtil.getReader(JsonUtil.java:320)
+	at org.apache.synapse.commons.json.JsonUtil.getReader(JsonUtil.java:302)
+	at org.apache.synapse.commons.json.JsonUtil.toXml(JsonUtil.java:281)
+	... 25 more
+2019-01-13 20:07:18,739 [-] [PassThroughMessageProcessor-1]  WARN __SynapseService Executing fault handler due to exception encountered
+2019-01-13 20:07:18,739 [-] [PassThroughMessageProcessor-1]  WARN __SynapseService ERROR_CODE : 0 ERROR_MESSAGE : Error while building message
+2019-01-13 20:07:18,740 [-] [PassThroughMessageProcessor-1]  WARN __SynapseService Executing fault sequence mediator : fault
+2019-01-13 20:07:18,740 [-] [PassThroughMessageProcessor-1]  INFO __SynapseService STATUS = Executing default 'fault' sequence, ERROR_CODE = 0, ERROR_MESSAGE = Error while building message
+2019-01-13 20:07:32,775 [-] [PassThroughMessageProcessor-2]  INFO __SynapseService STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /calc/1.0.0/add?intA=4&intB=10
+2019-01-14 13:19:31,970 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Building Axis service for Proxy service : WorkflowCallbackService
+2019-01-14 13:19:31,977 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Adding service WorkflowCallbackService to the Axis2 configuration
+2019-01-14 13:19:31,980 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Successfully created the Axis2 service for Proxy service : WorkflowCallbackService
+2019-01-14 14:51:26,005 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Building Axis service for Proxy service : WorkflowCallbackService
+2019-01-14 14:51:26,012 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Adding service WorkflowCallbackService to the Axis2 configuration
+2019-01-14 14:51:26,015 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Successfully created the Axis2 service for Proxy service : WorkflowCallbackService
+2019-01-14 16:38:51,421 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Building Axis service for Proxy service : WorkflowCallbackService
+2019-01-14 16:38:51,428 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Adding service WorkflowCallbackService to the Axis2 configuration
+2019-01-14 16:38:51,430 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Successfully created the Axis2 service for Proxy service : WorkflowCallbackService
+2019-01-15 10:09:49,308 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Building Axis service for Proxy service : WorkflowCallbackService
+2019-01-15 10:09:49,315 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Adding service WorkflowCallbackService to the Axis2 configuration
+2019-01-15 10:09:49,317 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Successfully created the Axis2 service for Proxy service : WorkflowCallbackService
